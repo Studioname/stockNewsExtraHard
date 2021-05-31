@@ -1,5 +1,5 @@
 # stockNewsExtraHard
-Unassisted challenge exercise
+Unassisted challenge exercise of the 'extra hard' variety
 
 This was an unguided challenge exercise to create a program which sends the top three news stories for a given company depending on that company's stock performance [ie whether
 it goes up or down a certain amount within a given time frame.]
