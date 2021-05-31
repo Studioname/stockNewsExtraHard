@@ -6,7 +6,7 @@ it goes up or down a certain amount within a given time frame.]
 
 I started out using the daily stock prices and performing my own calculations, but then the non-trading days presented a massive pain in the ass. So I went back to the api and
 figured I'd simply use the spot prices, which included a % change. So that is what I ran with. The teacher in their solution turned the json data into a list and referenced it
-by index, which is something that didn't occur to me. 
+by index, which didn't occur to me, but is nonetheless cool.
 
 I then had to determine whether a stock had changed by x percent. The easiest way was to use a string slice and convert to float [so float(percentage_change[:-2])].
 
